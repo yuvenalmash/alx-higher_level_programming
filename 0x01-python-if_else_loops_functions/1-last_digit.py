@@ -11,4 +11,4 @@ elif last_digit_int == 0:
 elif last_digit_int < 6:
     text2 = "and is less than 6 and not 0"
 
-print(f"{text} {number} is {last_digit} {text2}")
+print(f"{text} {number} is {last_digit_int} {text2}")
