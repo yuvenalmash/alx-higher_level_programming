@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 import random
-
-from numpy import signedinteger
-from sqlalchemy import null
 number = random.randint(-10000, 10000)
 # last_digit = str(number)[-1]
 last_digit = abs(number) % 10
