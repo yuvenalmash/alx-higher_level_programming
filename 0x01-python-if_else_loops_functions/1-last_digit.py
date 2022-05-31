@@ -5,7 +5,7 @@ last_digit = str(number)[-1]
 last_digit_int = int(last_digit)
 text = "Last digit of "
 if last_digit_int > 5:
-    text2 = "and greater than 5"
+    text2 = "and is greater than 5"
 elif last_digit_int == 0:
     text2 = "and is 0"
 elif last_digit_int < 6:
