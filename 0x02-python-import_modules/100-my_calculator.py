@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 
 
@@ -23,5 +22,5 @@ def main():
     print("{} {} {} = {}".format(a, sys.argv[2], b, ops[sys.argv[2]](a, b)))
 
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
