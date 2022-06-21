@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Define classes for a singly-linked list.
+"""
 
 
 class Node:
@@ -36,6 +39,7 @@ class Node:
             self.__next_node = value
 
     class SinglyLinkedList:
+        """Represent a singly-linked list."""
 
         def __init__(self):
             """Initializes a new SinglyLinkedList."""
