@@ -12,8 +12,9 @@ class Base:
     Represents the "base" for all other classes in project 0x0C*.
 
     Attributes:
-        __nb_objects (int): The number of instantiated Bases.(pritvate class attribute)
-    """
+        __nb_objects (int): The number of instantiated
+                Bases.(pritvate class attribute)
+                """
 
     __nb_objects = 0
 
@@ -23,7 +24,7 @@ class Base:
         Args:
             id (int): The identity of the new Base.
         """
-        if id != None:
+        if id is not None:
             self.id = id
         else:
             Base.__nb_objects += 1
